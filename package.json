@@ -1,6 +1,9 @@
 {
   "name": "example-mono",
   "private": true,
+  "scripts": {
+    "dev": "yarn workspaces foreach -pvi run dev"
+  },
   "workspaces": [
     "packages/*"
   ],
